@@ -36,6 +36,7 @@ days = str((vacation - today).days)
 message_days = "Bis zum Urlaub sind " + days + " Tage geblieben."
 
 bot = telebot.TeleBot("5324181828:AAHn3CN5yiq4SUNQghCbKCd2xuvcwjnqdjY", parse_mode=None)
+BOT_URL = "https://git.heroku.com/deinurlaubsbot.git"
 
 
 @bot.message_handler(commands=['start', 'help'])
